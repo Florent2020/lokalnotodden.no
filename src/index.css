@@ -1,0 +1,49 @@
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background: var(--clr-white);
+  color: var(--clr-grey-1);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+button,
+input,
+textarea {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+}
+
+h3:hover {
+  text-decoration: none !important;
+}
